@@ -1,12 +1,13 @@
 * {
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    flex-direction: column
-    flex: 1;
+  display: flex;
+  flex: 1;
+  margin: 0;
+  flex-direction: column
 }
 
 .container {
@@ -16,15 +17,15 @@ body {
 }
 
 .section1 {
-    background-color: #1f2937;
-    color: #F9FAF8;
+  background-color: #1f2937;
+  color: #F9FAF8;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
 }
 
 .nav {
@@ -85,6 +86,7 @@ body {
   padding: 10px 26px;
   font-weight: 600;
   cursor: pointer;
+
 }
 .sign-up:hover { 
     filter: brightness(0.95); 
@@ -99,6 +101,10 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;     
+}
+
+.section2 {
+  padding-bottom: 80px;
 }
 
 .section-title {
@@ -181,9 +187,33 @@ body {
   background: #3882F6;
   color: white;
   border-radius: 5px;
-  padding: 28px 40px;
+  padding: 20px 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 1000px;             
+  width: 1000px;       
+}
+
+.cta-title {
+  font-size: 22px;
+  font-weight: 550;
+  margin-bottom: 4px; 
+}
+
+.cta-sub {
+  margin-top: 0;
+  font-weight: 300;
+}
+
+.cta-button{
+    background-color: #3882F6;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    width: 150px;
+    height: 45px;
+    margin-top: 30px;
+    margin-top: 0; 
+    cursor: pointer;
 }
